@@ -1,0 +1,30 @@
+#title_box {
+    font-size: 24px;
+    letter-spacing: -.40em;
+}
+
+.biyou {
+    color: #dc143c;
+    padding: 0 10px;
+    letter-spacing: normal;
+}
+
+.y {
+    color: #ea5549;
+    letter-spacing: normal;
+}
+
+.uu {
+    color: #ea5532;
+    letter-spacing: normal;
+}
+
+.no {
+    color: #00a497;
+    letter-spacing: normal;
+}
+
+.hair {
+    color: #626063;
+    letter-spacing: normal;
+}
