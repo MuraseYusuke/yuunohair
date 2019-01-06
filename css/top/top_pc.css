@@ -5,15 +5,21 @@
 .imgBox img{
     margin-top: -20px;
     width: 200px;
-    height: auto;
+    height: 180px;
     object-fit: cover;
     background-color: #006400;
 }
 
 .titleBox {
+    position: relative;
     font-size: 0;
-    margin-top: 40px;
-    margin-left: 300px;
+    width: 100%;
+}
+
+.titleContents {
+    position: absolute;
+    top: 30px;
+    left: 30%;
 }
 
 #colorSean {
@@ -72,26 +78,6 @@
     background: none !important;
 }
 
-#image-bloc {
-    height: 440px;
-}
-
-.bx-viewport {
-    overflow: visible !important;
-    width: 1026px !important;
-}
-
-.main-container {
-    overflow: hidden;
-    padding-bottom: 150px;
-}
-
-.slider {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .slider li {
     width: 900px !important;
     height: 600px !important;
@@ -103,4 +89,27 @@
     width: 900px;
     height: 600px;
     object-fit: cover;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.barImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.barContents {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.flexBox {
+    display: flex;
 }
