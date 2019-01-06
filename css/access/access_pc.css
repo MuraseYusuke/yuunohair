@@ -1,0 +1,104 @@
+#header {
+    display: flex;
+}
+
+.imgBox img{
+    margin-top: -20px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    background-color: #006400;
+}
+
+.titleBox {
+    position: relative;
+    font-size: 0;
+    width: 100%;
+}
+
+.titleContents {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+#colorSean {
+    color: #dc143c;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 0 #000,
+                -1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000; */
+}
+
+#colorRed {
+    color: #ff0000;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#colorOrange {
+    color: #ffa500;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#colorGreen {
+    color: #006400;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#colorBrown {
+    color: #8b4513;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rotate30 {
+    display: inline-block;
+    transform: rotate(30deg);
+}
+
+.overlap {
+    margin-left: -10px;
+}
+
+.indent {
+    vertical-align: bottom;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.barImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.barContents {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.contentsBox {
+    display: flex;
+}
+
+.accessText {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
