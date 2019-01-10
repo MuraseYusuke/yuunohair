@@ -69,28 +69,6 @@
     vertical-align: bottom;
 }
 
-.bx-wrapper {
-    margin: 0 auto !important;
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    border: none !important;
-    background: none !important;
-}
-
-.slider li {
-    width: 900px !important;
-    height: 600px !important;
-    margin: 0;
-    padding: 0;
-}
-
-.slider li img {
-    width: 900px;
-    height: 600px;
-    object-fit: cover;
-}
-
 .menuBar {
     display: flex;
     justify-content: space-around;
@@ -112,4 +90,15 @@
 
 .flexBox {
     display: flex;
+}
+
+.contentsBox {
+    display: flex;
+}
+
+.accessText {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }

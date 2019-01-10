@@ -4,15 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/top/top_pc.css">
+    <link rel="stylesheet" type="text/css" href="./css/top/top_sp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                ticker: true,
+                tickerHover: true,
+                speed: 120000,
+                useCSS: false,
+                pager: true
+            });
+        });
+    </script>
     <title>yuuの部屋</title>
 </head>
 
 <body>
+    <!-- ヘッダー内コンテンツ -->
     <div id="header">
-        <img src="src/main.jpg">
-        <div id="title_box">
-            <p>Yuuの部屋</p>
+        <!-- ヘッダー画像 -->
+        <div class="imgBox">
+            <img src="src/main.jpg">
         </div>
+        <!-- ヘッダータイトル -->
+        <div class="titleBox">
+            <div class="titleContents">
+                <span id="colorSean">美容室</span>
+                <span id="colorRed">y</span>
+                <span id="colorOrange" class="overlap">u</span>
+                <span id="colorOrange" class="rotate30 overlap indent">u</span>
+                <span id="colorGreen">の</span>
+                <span id="colorBrown">部</span>
+                <span id="colorBrown" class="indent">屋</span>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <li><img src="./src\ca3db05f0b1ab58bdb202b627968d02e.jpg" width="300" height="300" alt=""></li>
+        <li><img src="./src\tino_img1.jpg" width="300" height="300" alt=""></li>
+        <li><img src="./src/o0273032013863916344.jpg" width="300" height="300" alt=""></li>
+        <li><img src="./src/t02200248_0363041013863915908.jpg" width="300" height="300" alt=""></li>
+        <li><img src="./src/o0507061513863915643.jpg" width="300" height="300" alt=""></li>
+        <!--必要に応じて追加する
+                        <img src="gazou3.jpg" width="500" height="300" alt="">
+                        <img src="gazou4.jpg" width="500" height="300" alt="">
+                        -->
+    </div>
+    <div class="menuBar">
+        <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
+            <div class="barImg"><img src="./src\o1080192014046325431.png"></div>
+            <div class="barContents">メニュー</div>
+        </a>
+        <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
+            <div class="barImg"><img src="./src\o0361048813995875059.png"></div>
+            <div class="barContents">ブログ</div>
+        </a>
+        <a href="./pages/access.html" class="flexBox">
+            <div class="barImg"><img src="./src\o0322048514062733983.png"></div>
+            <div class="barContents">アクセス</div>
+        </a>
     </div>
 </body>
 

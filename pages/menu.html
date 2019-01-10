@@ -5,18 +5,42 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./../css/common.css">
     <title>yuuの部屋</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div id="header">
         <img src="./../src/main.jpg">
-        <div id="title_box">
+        <div id="title_box">∫
             <p>Yuuの部屋</p>
         </div>
         <div id="menu_list">
             <div></div>
-        </div>
     </div>
+</div>
+<!-- スライドショー -->
+<div class="slider">
+    <img src="./../src/o0800060014161404582.jpg" width="300" height="300" alt="">
+    <img src="./../src/o0800060014161404582.jpg" width="300" height="300" alt="">
+    <!--必要に応じて追加する
+    <img src="gazou3.jpg" width="500" height="300" alt="">
+    <img src="gazou4.jpg" width="500" height="300" alt="">
+    -->
+</div>
+<!--地図-->
+<h2>アクセス</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.5386343888536!2d134.60986941521855!3d34.183711680570376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355365e96f41e2d5%3A0x9f6d4d39172597c4!2z44CSNzcyLTAwMTEg5b6z5bO255yM6bO06ZaA5biC5pKr6aSK55S65aSn5qGR5bO25r-Y5bKp5rWc77yR77yZ4oiS77yS77yXIOOCteODs-ODqeOCpOOCuuWkp-ahkeWztjFG!5e0!3m2!1sja!2sjp!4v1546089422615" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </body>
 
 </html>
