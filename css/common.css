@@ -7,3 +7,8 @@ a {
     color: #000000;
     text-decoration: none;
 }
+
+#headerBorder{
+    margin-bottom: 100px;
+    border: 0.5px solid rgba(0,0,0,0.1);
+}
