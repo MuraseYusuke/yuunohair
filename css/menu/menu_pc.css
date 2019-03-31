@@ -67,6 +67,7 @@
     font-size: 32px;
     font-family: 'Sawarabi Mincho', sans-serif;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .colorMemberMenu{
@@ -88,14 +89,36 @@
     padding-top: 8px;
     margin-left: 64px;
     margin-right: 16px;
+    margin-top: 8px;
 }
 
 .flexLeft{
     padding-top: 8px;
     margin-right: 64px;
     margin-left: 16px;
+    margin-top: 8px;
 }
 
-.memberTitle{
+.memberMiniTitle{
+    color: #dc143c;
+    margin:8px;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 3px dashed #808080;
+}
 
+.memberNumber{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px;
+    padding: 4px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #ffffff;
+    background-color: #ff7f50;
+    border-radius: 15px;
+}
+
+.smallSize{
+    font-size: 32px;
 }
