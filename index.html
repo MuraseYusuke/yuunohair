@@ -6,19 +6,24 @@
     <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/top/top_pc.css">
     <link rel="stylesheet" type="text/css" href="./css/top/top_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/about/about_pc.css">
+    <link rel="stylesheet" type="text/css" href="./css/about/about_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu/menu_pc.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.slider').bxSlider({
-                ticker: true,
-                tickerHover: true,
-                speed: 120000,
-                useCSS: false,
-                pager: true
-            });
-        });
+        // $(document).ready(function () {
+        //     $('.slider').bxSlider({
+        //         ticker: true,
+        //         tickerHover: true,
+        //         speed: 120000,
+        //         useCSS: false,
+        //         pager: true
+        //     });
+        // });
     </script>
     <title>yuuの部屋</title>
 </head>
@@ -44,34 +49,80 @@
                 </div>
             </a>
         </div>
+        <div class="menuBar">
+            <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
+                <div class="barImg"><img src="./src\o1080192014046325431.png"></div>
+                <span class="barContents">メニュー</span>
+            </a>
+            <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
+                <div class="barImg"><img src="./src\o0361048813995875059.png"></div>
+                <span class="barContents">ブログ</span>
+            </a>
+            <a href="./pages/access.html" class="flexBox accessButton">
+                <div class="barImg"><img src="./src\o0322048514062733983.png"></div>
+                <span class="barContents">アクセス</span>
+            </a>
+        </div>
     </div>
 
-    <hr id="headerBorder">
+    <!--タイトルの余白用-->
+    <div class="paddingTitle"></div>
 
-    <div class="slider">
-        <li><img src="./src\ca3db05f0b1ab58bdb202b627968d02e.jpg" width="300" height="300" alt=""></li>
-        <li><img src="./src\tino_img1.jpg" width="300" height="300" alt=""></li>
-        <li><img src="./src/o0273032013863916344.jpg" width="300" height="300" alt=""></li>
-        <li><img src="./src/t02200248_0363041013863915908.jpg" width="300" height="300" alt=""></li>
-        <li><img src="./src/o0507061513863915643.jpg" width="300" height="300" alt=""></li>
-        <!--必要に応じて追加する
-                        <img src="gazou3.jpg" width="500" height="300" alt="">
-                        <img src="gazou4.jpg" width="500" height="300" alt="">
-                        -->
+    <!--about-->
+    <div class="about">
+        <div>
+            <p class="aboutText">頑張るお母さんを応援します</p>
+            <p class="aboutText">子育てをしている世代を中心に親子3～4代が</p>
+            <p class="aboutText">肩肘張らずに気軽に利用できるファミリーサロンです</p>
+        </div>
     </div>
-    <div class="menuBar">
-        <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
-            <div class="barImg"><img src="./src\o1080192014046325431.png"></div>
-            <div class="barContents">メニュー</div>
-        </a>
-        <a href="https://ameblo.jp/naruto-yuu-no-hair/" class="flexBox">
-            <div class="barImg"><img src="./src\o0361048813995875059.png"></div>
-            <div class="barContents">ブログ</div>
-        </a>
-        <a href="./pages/access.html" class="flexBox">
-            <div class="barImg"><img src="./src\o0322048514062733983.png"></div>
-            <div class="barContents">アクセス</div>
-        </a>
+
+    <div class="menu">
+        <div class="menuTitle">menu</div>
+        <div class="menuContents">
+            <div class="menuCut">
+                <div class="menuSubtitle">カット</div>
+                <div class="article"><span>スタンダード</span><span>￥3,000</span></div>
+                <div class="article"><span>中高生</span><span>￥2,000</span></div>
+                <div class="article"><span>小学生以下</span><span>￥1,500</span></div>
+                <div class="article"><span>前髪</span><span>￥500</span></div>
+            </div>
+            <div class="menuColor">
+                <div class="menuSubtitle">カラー(シャンプー込み)</div>
+                <div class="article"><span>(リタッチ)</span><span></span>￥5,000～</span></div>
+                <div class="article"><span>(フル)</span><span></span>￥6,000～</span></div>
+                <div class="article"><span>マニキュア</span><span>￥5,000～</span></div>
+                <div class="article"><span>ヘナカラー</span><span>￥5,000～</span></div>
+                <div class="article"><span>和漢</span><span>￥5,000～</span></div>
+            </div>
+            <div class="menuPermanent">
+                <div class="menuSubtitle">パーマ(シャンプーカット込み)</div>
+                <div class="article"><span>パーマ</span><span>￥8,000～</span></div>
+                <div class="article"><span>形状記憶パーマ(デジタル)</span><span>￥12,000～</span></div>
+                <div class="article"><span>ストレートパーマ(縮毛矯正)</span><span>￥15,000～</span></div>
+            </div>
+            <div class="menuTreatment">
+                <div class="menuSubtitle">トリートメント</div>
+                <div class="article"><span>オゾンヘッドスパ</span><span>￥1,000～</span></div>
+                <div class="article"><span>ラクメCPトリートメント</span><span>￥2,500～</span></div>
+            </div>
+            <div class="menuOther">
+                <div class="menuSubtitle">その他</div>
+                <div class="article"><span>セット・着付け・メイク</span></div>
+                <div class="article"><span>(要予約)</span></div>
+            </div>
+            <div class="precaution">※上記価格は税別です</div>
+        </div>
+    </div>
+
+    <div class="colorMemberTitle">カラー会員制度</div>
+    <div class="colorMemberMenu">
+        <div class="memberFlex flexRight">
+            <div class="memberTitle">1年会員</div>
+        </div>
+        <div class="memberFlex flexLeft">
+            <div class="memberTitle">半年会員</div>
+        </div>
     </div>
 </body>
 

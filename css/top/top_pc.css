@@ -1,25 +1,31 @@
 #header {
+    position: fixed;
     display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffff99;
+    background-color: #ffffff;
 }
 
 .imgBox img{
-    margin-top: -20px;
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 80px;
+    margin-top: 8px;
+    margin-left: 40px;
     object-fit: cover;
     background-color: #006400;
 }
 
 .titleBox {
-    position: relative;
     font-size: 0;
-    width: 100%;
+    margin: 0 auto;
+    padding-left: 150px;
 }
 
 .titleContents {
-    position: absolute;
-    top: 30px;
-    left: 30%;
+    margin: 0 auto;
 }
 
 #colorSean {
@@ -97,19 +103,44 @@
 }
 
 .barImg img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
 .barContents {
-    width: 100px;
-    height: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 50px;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .flexBox {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    margin-left: -8px;
+}
+
+.accessButton{
+    margin-left: -16px;
+}
+.background{
+    background-color: gold;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.paddingTitle{
+    width: 100%;
+    height: 97px;
 }

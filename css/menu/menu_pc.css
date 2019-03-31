@@ -1,0 +1,101 @@
+.menu{
+    width: 100%;
+}
+
+.menuTitle{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.menuContents{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuSubtitle{
+    text-align: center;
+    margin: 8px;
+    padding: 1em;
+    border: 3px solid #ccc;
+    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+}
+
+.menuCut{
+    flex-basis: 50%;
+}
+
+.menuColor{
+    flex-basis: 50%;
+}
+
+.menuPermanent{
+    flex-basis: 50%;
+}
+
+.menuTreatment{
+    flex-basis: 50%;
+}
+
+.menuOther{
+    flex-basis: 50%;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-size: bold;
+    margin-top: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.precaution{
+    margin: 24px;
+    font-weight: bold;
+}
+
+.colorMenber{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.colorMemberTitle{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin-top: 40px;
+}
+
+.colorMemberMenu{
+    display: flex;
+}
+
+.memberFlex{
+
+    height: 40px;
+    text-align: center;
+    flex-basis: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    /* font-weight: bold; */
+    background-color: #b8860b;
+}
+
+.flexRight{
+    padding-top: 8px;
+    margin-left: 64px;
+    margin-right: 16px;
+}
+
+.flexLeft{
+    padding-top: 8px;
+    margin-right: 64px;
+    margin-left: 16px;
+}
+
+.memberTitle{
+
+}
