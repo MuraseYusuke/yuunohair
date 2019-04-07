@@ -1,0 +1,49 @@
+.profile {
+    margin-top: 100px;
+}
+
+.profileTitle {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.profileStaffBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileStaff {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.profileImage img{
+    height: 300px;
+    width: 280px;
+    object-fit: contain;
+}
+
+.profileName {
+
+}
+
+.profileCareer {
+
+}
+
+.profileHobby {
+
+}
+
+.profileStyle {
+
+}
+
+.profileMessage {
+
+}
+
+.profileMind {
+
+}
