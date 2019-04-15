@@ -1,5 +1,5 @@
 .about{
-    height: 600px;
+    height: 100vh;
     color: rgba(0, 0, 0, .7);
     font-size: 40px;
     font-family: 'Sawarabi Mincho', sans-serif;
@@ -13,20 +13,23 @@
     padding-left: 200px;
     animation-name: fadein1;
     animation-duration: 5s;
+    z-index: -1;
 }
 .aboutText2{
     margin: 0 auto;
     padding-top: 100px;
     padding-left: 200px;
     animation-name: fadein2;
-    animation-duration: 8s;
+    animation-duration: 10s;
+    z-index: -1;
 }
 .aboutText3{
     margin: 0 auto;
     padding-top: 100px;
     padding-left: 200px;
     animation-name: fadein3;
-    animation-duration: 10s;
+    animation-duration: 15s;
+    z-index: -1;
 }
 
 @keyframes fadein1 {
