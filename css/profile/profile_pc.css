@@ -8,14 +8,24 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
-.profileStaffBox {
+.profileStaff {
     display: flex;
     flex-wrap: wrap;
 }
 
-.profileStaff {
+.profileBox {
+    width: auto;
+    margin: 0 auto;
+    border: 2px solid #dcdcdc;
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 45%;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 16px;
+}
+
+.profileImage {
+    margin: 8px;
 }
 
 .profileImage img{
@@ -25,25 +35,9 @@
 }
 
 .profileName {
-
+    font-size: 20px;
 }
 
-.profileCareer {
-
-}
-
-.profileHobby {
-
-}
-
-.profileStyle {
-
-}
-
-.profileMessage {
-
-}
-
-.profileMind {
+.introduction {
 
 }

@@ -7,6 +7,7 @@
     justify-content: space-between;
     border-bottom: 1px solid #ffff99;
     background-color: #ffffff;
+    z-index: 2;
 }
 
 .imgBox img{
@@ -111,8 +112,8 @@
 .barContents {
     width: 80px;
     font-size: 20px;
-    margin-top: 16px;
     font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 10px;
 }
 
 .flexBox {
