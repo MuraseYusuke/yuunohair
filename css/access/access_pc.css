@@ -14,18 +14,6 @@
     background-color: #006400;
 }
 
-.titleBox {
-    position: relative;
-    font-size: 0;
-    width: 100%;
-}
-
-.titleContents {
-    position: absolute;
-    top: 30px;
-    left: 30%;
-}
-
 #colorSean {
     color: #dc143c;
     font-size: 20px;
@@ -73,32 +61,7 @@
     vertical-align: bottom;
 }
 
-.menuBar {
-    display: flex;
-    justify-content: space-around;
-}
 
-.barImg img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
-.barContents {
-    width: 100px;
-    height: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-.flexBox {
-    display: flex;
-}
-
-.contentsBox {
-    display: flex;
-}
 
 .detailTitle {
     display: inline-block;
