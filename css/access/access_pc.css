@@ -7,13 +7,6 @@
     margin-left: 20px;
 }
 
-.imgBox img{
-    width: 180px;
-    height: 150px;
-    object-fit: cover;
-    background-color: #006400;
-}
-
 #colorSean {
     color: #dc143c;
     font-size: 20px;
