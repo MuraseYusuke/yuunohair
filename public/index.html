@@ -6,14 +6,14 @@
     <link rel="shortcut icon" href="./deac7e174cbb1a6238df90cd579399d6_xo.ico">
     <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/top/top_pc.css">
-    <link rel="stylesheet" type="text/css" href="./css/top/top_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/top/top_sp.css" media="screen and (max-width:750)">
     <link rel="stylesheet" type="text/css" href="./css/about/about_pc.css">
-    <link rel="stylesheet" type="text/css" href="./css/about/about_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/about/about_sp.css" media="screen and (max-width:750)">
     <link rel="stylesheet" type="text/css" href="./css/menu/menu_pc.css">
-    <link rel="stylesheet" type="text/css" href="./css/menu/menu_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu/menu_sp.css" media="screen and (max-width:750)">
     <link rel="stylesheet" type="text/css" href="./css/profile/profile_pc.css">
     <link rel="stylesheet" type="text/css" href="./css/access/access_pc.css">
-    <link rel="stylesheet" type="text/css" href="./css/access/access_sp.css">
+    <link rel="stylesheet" type="text/css" href="./css/access/access_sp.css" media="screen and (max-width:750)">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -126,7 +126,7 @@
         </div>
     </div>
 
-    <div class="profile">
+    <div id="contentProfile" class="profile">
         <div class="profileTitle">Staff</div>
         <div class="profileStaff">
             <!-- プロフィールのレイアウトはGoogleアカウントのページみたいに作る -->
@@ -177,7 +177,8 @@
             </div>
         </div>
     </div>
-    <div class="profileTitle">Access</div>
+
+    <div id="contentAccess" class="profileTitle">Access</div>
     <div class="contentsBox">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.5386343888536!2d134.60986941521855!3d34.183711680570376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355365e96f41e2d5%3A0x9f6d4d39172597c4!2z44CSNzcyLTAwMTEg5b6z5bO255yM6bO06ZaA5biC5pKr6aSK55S65aSn5qGR5bO25r-Y5bKp5rWc77yR77yZ4oiS77yS77yXIOOCteODs-ODqeOCpOOCuuWkp-ahkeWztjFG!5e0!3m2!1sja!2sjp!4v1546089422615"
@@ -197,6 +198,8 @@
             <div class="detailText">※P4台あり</div>
         </div>
     </div>
+    <div id="fab"></div>
+    <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
