@@ -31,3 +31,18 @@
 .container {
     margin-left: 16px;
 }
+
+.menuButton {
+    height: 60px;
+    width: 150px;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 1px #ffffff;
+    padding-top: 30px;
+}
+
+.menuContainer {
+    display: flex;
+}
