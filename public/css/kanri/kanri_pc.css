@@ -20,6 +20,10 @@
     padding-left: 8px;
 }
 
+#loginButton {
+    cursor: pointer;
+}
+
 .wapper {
     margin-left: 16px;
 }
