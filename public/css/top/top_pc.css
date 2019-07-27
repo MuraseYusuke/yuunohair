@@ -182,11 +182,29 @@
     height: 70px;
     width: 70px;
     border-radius: 50px;
-    background-color: #e20b0b;
+    background-color: #6a5acd;
     opacity: 0;
-    animation-name: fabanimetion
+    animation-name: fabanimetion;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.56);
 }
 
 @keyframes fabanimetion {
-    
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fabText{
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
 }

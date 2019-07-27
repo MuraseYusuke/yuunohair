@@ -9,12 +9,21 @@
     border-style: solid;
     border-width: 1px;
     border-image: none;
+    padding-left: 8px;
 }
 
-#backred {
-
+#loginpass {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: none;
+    padding-left: 8px;
 }
 
-#backyellow {
-    
+.wapper {
+    margin-left: 16px;
+}
+
+.container {
+    margin-left: 16px;
 }
