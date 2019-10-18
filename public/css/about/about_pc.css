@@ -5,6 +5,7 @@
     font-family: 'Sawarabi Mincho', sans-serif;
     background-color: rgba(253, 240, 58, 0.3);
     line-height: 1em;
+    position: relative;
 }
 
 .aboutText1{
@@ -30,6 +31,56 @@
     animation-name: fadein3;
     animation-duration: 15s;
     z-index: -1;
+}
+
+.aboutImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.aboutImg1 {
+    left: 50px;
+    top: 30px;
+    animation-name: fadein1;
+    animation-duration: 5s;
+}
+
+.aboutImg2 {
+    left: 500px;
+    top: 30px;
+    animation-name: fadein2;
+    animation-duration: 10s;
+}
+
+.aboutImg3 {
+    left: 1000px;
+    top: 30px;
+    animation-name: fadein3;
+    animation-duration: 15s;
+}
+
+.aboutImg4 {
+    left: 50px;
+    top: 570px;
+    animation-name: fadein1;
+    animation-duration: 5s;
+}
+
+.aboutImg5 {
+    left: 500px;
+    top: 570px;
+    animation-name: fadein2;
+    animation-duration: 10s;
+}
+
+.aboutImg6 {
+    left: 1000px;
+    top: 570px;
+    animation-name: fadein3;
+    animation-duration: 15s;
 }
 
 @keyframes fadein1 {

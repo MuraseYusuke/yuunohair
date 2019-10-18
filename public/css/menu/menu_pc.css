@@ -101,11 +101,15 @@
 }
 
 .memberMiniTitle{
-    color: #dc143c;
-    margin:8px;
-    font-weight: bold;
-    font-size: 40px;
-    border-bottom: 3px dashed #808080;
+    text-align: center;
+    flex-basis: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 4px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #b8860b;
 }
 
 .memberNumber{
@@ -122,4 +126,13 @@
 
 .smallSize{
     font-size: 32px;
+}
+
+.creditcard {
+    border: 1px solid #000000;
+    margin-left: 30px;
+}
+
+.atention {
+    line-height: 1px;
 }
