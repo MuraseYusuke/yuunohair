@@ -7,6 +7,8 @@
     text-align: center;
     font-size: 70px;
     font-family: 'Fredericka the Great', cursive;
+    margin-bottom: 24px;
+    padding-top: 24px;
 }
 
 .menuContents{
@@ -57,6 +59,7 @@
 .precaution{
     margin: 24px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .colorMenber{
