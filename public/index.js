@@ -1,4 +1,4 @@
-var config = {
+  var config = {
     apiKey: "AIzaSyBE7fQjdOkbbsFzwnaMkmUHNSqb8scM-Nc",
     authDomain: "yuunohair-b93aa.firebaseapp.com",
     databaseURL: "https://yuunohair-b93aa.firebaseio.com",
@@ -6,15 +6,15 @@ var config = {
     storageBucket: "yuunohair-b93aa.appspot.com",
     messagingSenderId: "113130972129",
     appId: "1:113130972129:web:ead5a1409939421e"
-};
+  };
 firebase.initializeApp(config);
-
-console.log("firebase 起動");
 
 var db = firebase.firestore();
 db.settings({
     timestampsInSnapshots: true
 });
+
+console.log('firebase 開始');
 
 var collection = db.collection('bookmarks');
 var bookmarks = document.getElementById('bookmarks');
@@ -28,13 +28,16 @@ collection.get().then(snapshot => {
     })
 })
 
-var collection = db.collection('menu');
+// const collection = db.collection('menu');
+// const menuContents = document.getElementByClassName('menuContents');
 
-collection.get().then(snapshot => {
-    snapshot.forEach(fb => {
-        var menuDiv = document.createElement('div');
-        console.log(fb.data());
-    })
-})
+// collection.get().then(snapshot => {
+//     snapshot.forEach(fb => {
+//         var menuDiv = document.createElement('div');
+//         menuDiv.classList.add('menuList');
+//         console.log(menuDiv);
+//         console.log(fb.data());
+//     })
+// })
 
 console.log("firebase 終了");

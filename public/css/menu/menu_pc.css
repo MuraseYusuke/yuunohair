@@ -22,19 +22,7 @@
     border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
 }
 
-.menuCut{
-    flex-basis: 50%;
-}
-
-.menuColor{
-    flex-basis: 50%;
-}
-
-.menuPermanent{
-    flex-basis: 50%;
-}
-
-.menuTreatment{
+.menuList{
     flex-basis: 50%;
 }
 
