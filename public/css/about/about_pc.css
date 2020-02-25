@@ -5,31 +5,100 @@
     font-family: 'Sawarabi Mincho', sans-serif;
     background-color: rgba(253, 240, 58, 0.3);
     line-height: 1em;
+    position: relative;
 }
 
 .aboutText1{
     margin: 0 auto;
-    padding-top: 200px;
-    padding-left: 200px;
+    padding-top: 80px;
+    /* margin-left: 70px; */
     animation-name: fadein1;
     animation-duration: 5s;
-    z-index: -1;
+    text-align: center;
 }
 .aboutText2{
     margin: 0 auto;
     padding-top: 100px;
-    padding-left: 200px;
+    /* margin-left: 180px; */
     animation-name: fadein2;
     animation-duration: 10s;
-    z-index: -1;
+    height: auto;
+    text-align: center;
 }
 .aboutText3{
     margin: 0 auto;
     padding-top: 100px;
-    padding-left: 200px;
+    /* margin-left:330px; */
     animation-name: fadein3;
     animation-duration: 15s;
-    z-index: -1;
+    text-align: center;
+}
+
+.aboutImageBox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.aboutImageBox2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 20px;
+}
+
+.aboutImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: .5;
+    /* position: absolute; */
+}
+
+.aboutImg1 {
+    left: 50px;
+    top: 30px;
+    /* animation-name: fadein1; */
+    /* animation-duration: 5s; */
+}
+
+.aboutImg2 {
+    left: 500px;
+    top: 30px;
+    /* animation-name: fadein2; */
+    /* animation-duration: 10s; */
+}
+
+.aboutImg3 {
+    left: 1000px;
+    top: 30px;
+    /* animation-name: fadein3; */
+    /* animation-duration: 15s; */
+}
+
+.aboutImg4 {
+    left: 50px;
+    top: 570px;
+    /* animation-name: fadein1;
+    animation-duration: 5s; */
+}
+
+.aboutImg5 {
+    left: 500px;
+    top: 570px;
+    /* animation-name: fadein2;
+    animation-duration: 10s; */
+}
+
+.aboutImg6 {
+    left: 1000px;
+    top: 570px;
+    /* animation-name: fadein3;
+    animation-duration: 15s; */
 }
 
 @keyframes fadein1 {

@@ -1,16 +1,18 @@
 .profile {
-    margin-top: 100px;
 }
 
 .profileTitle {
     text-align: center;
     font-size: 70px;
     font-family: 'Fredericka the Great', cursive;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .profileStaff {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .profileBox {
@@ -18,10 +20,11 @@
     border: 2px solid #dcdcdc;
     display: flex;
     flex-basis: 45%;
-    border-radius: 8px;
+    border-radius: 30px;
     padding: 8px;
-    margin: auto;
-    margin-top: 16px;
+    margin: 16px auto;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 .profileImage {
@@ -36,8 +39,9 @@
 
 .profileName {
     font-size: 20px;
+    font-weight: bold;
 }
 
-.introduction {
-
+.spaceright {
+    padding-left: 1em;
 }

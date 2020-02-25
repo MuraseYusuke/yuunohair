@@ -151,6 +151,21 @@
     justify-content: center;
     margin: 8px;
     cursor: pointer;
+    position: relative;
+}
+
+.btnwrap {
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 150px;
+    z-index: 3;
+}
+
+.btnwrap:hover {
+    opacity: 0.5;
+    background-color: #dcdcdc;
 }
 
 .accessButton{
@@ -207,4 +222,5 @@
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    line-height: 1.5em;
 }
